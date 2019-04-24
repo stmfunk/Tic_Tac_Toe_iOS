@@ -14,6 +14,10 @@
 		463EED16225D33DA0033EA36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463EED14225D33DA0033EA36 /* LaunchScreen.storyboard */; };
 		463EED21225D33DA0033EA36 /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EED20225D33DA0033EA36 /* Tic_Tac_ToeTests.swift */; };
 		463EED2C225D33DA0033EA36 /* Tic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EED2B225D33DA0033EA36 /* Tic_Tac_ToeUITests.swift */; };
+		4671FED62263A48000A4CC1F /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 4671FED52263A42A00A4CC1F /* board.png */; };
+		4671FED92263A48F00A4CC1F /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 4671FED82263A48A00A4CC1F /* nought.png */; };
+		4671FEDA2263A49200A4CC1F /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 4671FED72263A48800A4CC1F /* cross.png */; };
+		469BF5D02270839A00A968A2 /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469BF5CF2270839A00A968A2 /* BoardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		463EED27225D33DA0033EA36 /* Tic_Tac_ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tic_Tac_ToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		463EED2B225D33DA0033EA36 /* Tic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
 		463EED2D225D33DA0033EA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4671FED52263A42A00A4CC1F /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		4671FED72263A48800A4CC1F /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		4671FED82263A48A00A4CC1F /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+		469BF5CF2270839A00A968A2 /* BoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				463EED0B225D33D60033EA36 /* AppDelegate.swift */,
 				463EED0D225D33D60033EA36 /* ViewController.swift */,
 				463EED0F225D33D60033EA36 /* Main.storyboard */,
+				469BF5CF2270839A00A968A2 /* BoardModel.swift */,
+				4671FED52263A42A00A4CC1F /* board.png */,
+				4671FED72263A48800A4CC1F /* cross.png */,
+				4671FED82263A48A00A4CC1F /* nought.png */,
 				463EED12225D33DA0033EA36 /* Assets.xcassets */,
 				463EED14225D33DA0033EA36 /* LaunchScreen.storyboard */,
 				463EED17225D33DA0033EA36 /* Info.plist */,
@@ -187,6 +199,9 @@
 		463EED00225D33D60033EA36 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Menishi;
@@ -229,8 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4671FEDA2263A49200A4CC1F /* cross.png in Resources */,
 				463EED16225D33DA0033EA36 /* LaunchScreen.storyboard in Resources */,
+				4671FED92263A48F00A4CC1F /* nought.png in Resources */,
 				463EED13225D33DA0033EA36 /* Assets.xcassets in Resources */,
+				4671FED62263A48000A4CC1F /* board.png in Resources */,
 				463EED11225D33D60033EA36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469BF5D02270839A00A968A2 /* BoardModel.swift in Sources */,
 				463EED0E225D33D60033EA36 /* ViewController.swift in Sources */,
 				463EED0C225D33D60033EA36 /* AppDelegate.swift in Sources */,
 			);
